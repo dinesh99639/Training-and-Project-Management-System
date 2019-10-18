@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.div1 {
+  position: relative;
+  background-color: white;
+  /*margin-bottom: 80px;*/
+  /*height: 250px;*/
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.03s;
+}
+
+.div1:hover
+{
+  box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  width: 82%;
+  margin: 19px;
+}
+a {
+  color: blue;
+  font-size: 15px;
+}

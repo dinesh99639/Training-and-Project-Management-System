@@ -1,0 +1,72 @@
+body
+{
+	background-image: linear-gradient( 109.2deg,  rgba(254,3,104,1) 9.3%, rgba(103,3,255,1) 89.5% );
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.login
+{
+	position: relative;
+	margin: 60px 0;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	/*height: ght: 300px;*/
+	width: 22%;
+	min-width: 300px;
+	background: white;
+	padding: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	top: 250px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.login .text
+{
+	position: relative;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login .input input
+{
+	position: relative;
+	/*border-radius: 10px;*/
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+.login .submit
+{
+	position: relative;
+	/*width: 40px;*/
+	/*left: 30%;*/
+}
+
+.login .submit input[type="submit"]
+{
+	position: relative;
+	width: 80%;
+	top: 10px;
+	left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.5);
+}
+.warning
+{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -40px;
+    width: 100%;
+}

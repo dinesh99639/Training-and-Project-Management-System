@@ -1,0 +1,101 @@
+.start_img img
+{
+	position: relative;
+	margin-top: -20px;
+	width: 100%;
+}
+
+.card
+{
+	position: relative;
+	margin-top: 30px;
+	left: 50%;
+	transform: translate(-50%,0);
+	margin-bottom: 20px;
+	height: 300px;
+	width: 350px;
+	/*width: 90%;*/
+	/*min-width: 300px;*/
+	background: white;
+	padding: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	/*display: none;*/
+}
+/*.card:hover
+{
+	background-image: linear-gradient( 109.2deg,  rgba(254,3,104,1) 9.3%, rgba(103,3,255,1) 89.5% );
+	background-size: cover; 
+}
+.card:hover > .c_title,
+.card:hover > .c_data
+{
+	color: white;
+}*/
+.services
+{
+	opacity: 0;
+}
+.services .services-heading
+{
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.card .c_title
+{
+	text-align: center;
+	font-size: 27px;
+}
+
+.card .c_data
+{
+
+}
+
+.footer
+{
+	position: relative;
+	/*margin: 20 0 0 0;*/
+	text-align: center;
+	background-color: black;
+	height: 35px;
+	color: white;
+	bottom: -18px;
+	padding: 0;
+}
+
+.statistics
+{
+	opacity: 0;
+}
+
+.statistics-heading
+{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.registrations, .certified, .projects-onprogress, .projects-completed
+{
+	text-align: center;
+	font-size: 25px;
+}
+
+.statistics-description
+{
+	font-size: 20px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.footer p
+{
+	position: relative;
+	top: 7px;
+}
