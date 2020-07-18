@@ -1,7 +1,7 @@
 {
 	"name": "Training and Project Management System",
 	"icon": "",
-	"desc": "This is training and project management portal which is used to train students on particular technology which will give certificate of completion for the student and then allowed to do some projects. There is a module for the managers to bit for the projects from the Government.",
+	"desc": "This is training and project management portal which is used to train students on particular technology which will give certificate of completion for the student and then allowed to do some projects. There is a module for the managers to bid for the projects from the Government.",
 	"tech": ["HTML", "CSS", "JavaScript", "jQuery", "BootStrap", "PHP", "MySQL"],
 
 	"from": "",
